@@ -1,0 +1,58 @@
+body{
+    background-color: skyblue;
+}
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    color: #000;
+}
+
+div{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.encender{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: red;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.encender:hover {background-color: green}
+
+.encender:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.apagar{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: green;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.apagar:hover {background-color:red}
+
+.apagar:active {
+  background-color: red;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
