@@ -1,7 +1,7 @@
 /// Codigo que se ejecuta del lado del servidor.
 
 const servidor = require('express'); // Importa la libreria de Express.
-const path = require('path'); // Importa el para el manejo entre las rutas de la app.
+const path = require('path'); // Importa el path para el manejo entre las rutas de la app.
 const aplicacion = servidor();
 
 const jf = require("johnny-five"); // Importa la libreria de Johnny-five.
